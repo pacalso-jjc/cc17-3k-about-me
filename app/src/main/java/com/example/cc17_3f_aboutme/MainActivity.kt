@@ -42,7 +42,13 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             })
 
-        val arrList = listOf(aboutMe1, aboutMe2)
+        val rykielDelaCalzada = AboutMe(R.drawable.rykiel_delacalzada_dp,
+            "Rykiel Louizze Dela Calzada",
+            "BSIT - NetSec",
+            {/*TODO add onClickListener when show more button is clicked*/}
+        )
+
+        val arrList = listOf(aboutMe1, aboutMe2, rykielDelaCalzada)
 
         rvAboutMe.adapter = AboutMeAdapter(arrList)
     }

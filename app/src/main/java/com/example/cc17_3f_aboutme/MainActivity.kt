@@ -10,7 +10,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.cc17_3f_aboutme.adapter.AboutMeAdapter
 import com.example.cc17_3f_aboutme.model.AboutMe
-import java.util.Arrays
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -42,7 +41,20 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             })
 
-        val arrList = listOf(aboutMe1, aboutMe2)
+        val aboutMe48 = AboutMe(R.mipmap.psy,
+            "Chris Paolo Sab-it",
+            "Student",
+            { view -> val intent = Intent(this, AboutPaoActivity::class.java)
+                startActivity(intent)
+            })
+
+        val rykielDelaCalzada = AboutMe(R.drawable.rykiel_delacalzada_dp,
+            "Rykiel Louizze Dela Calzada",
+            "BSIT - NetSec",
+            {/*TODO add onClickListener when show more button is clicked*/}
+        )
+
+        val arrList = listOf(aboutMe1, aboutMe2, aboutMe48, rykielDelaCalzada)
 
         rvAboutMe.adapter = AboutMeAdapter(arrList)
     }

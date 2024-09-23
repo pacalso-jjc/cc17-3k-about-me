@@ -22,6 +22,9 @@
             android:name=".AboutPaoActivity"
             android:exported="false"/>
         <activity
+            android:name=".AboutRykielActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

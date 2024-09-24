@@ -58,7 +58,10 @@ class MainActivity : AppCompatActivity() {
         val iversonFerasan = AboutMe(R.drawable.iverson_ferasan_dp,
             "Iverson Fegcan Ferasan",
             "Student",
-            { })
+            {view ->
+                val intent = Intent(this, AboutIversonActivity::class.java)
+                startActivity(intent)
+            })
 
         val arrList = listOf(aboutMe1, aboutMe2, aboutMe48, rykielDelaCalzada,iversonFerasan)
 

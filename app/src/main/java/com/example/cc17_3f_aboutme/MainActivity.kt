@@ -62,8 +62,12 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(this, AboutIversonActivity::class.java)
                 startActivity(intent)
             })
+        val aboutJohnLucky = AboutMe(R.drawable.johnlucky_dp,
+            "John Lucky Louis Pilit",
+            "It's lucky but un",
+            {/* Todo add onClickListener when show more button is clicked*/})
 
-        val arrList = listOf(aboutMe1, aboutMe2, aboutMe48, rykielDelaCalzada,iversonFerasan)
+        val arrList = listOf(aboutMe1, aboutMe2, aboutMe48, rykielDelaCalzada,iversonFerasan, aboutJohnLucky)
 
         rvAboutMe.adapter = AboutMeAdapter(arrList)
     }

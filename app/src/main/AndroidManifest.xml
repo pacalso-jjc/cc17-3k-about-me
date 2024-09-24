@@ -28,6 +28,9 @@
             android:name=".AboutRykielActivity"
             android:exported="false" />
         <activity
+            android:name=".AboutLuckyActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

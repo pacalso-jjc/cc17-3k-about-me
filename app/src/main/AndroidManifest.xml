@@ -13,8 +13,11 @@
         android:theme="@style/Theme.CC173FAboutMe"
         tools:targetApi="31">
         <activity
+            android:name=".AboutOrpillaActivity"
+            android:exported="false" />
+        <activity
             android:name=".AboutPhilipActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".AboutAcederaActivity"
             android:exported="false" />

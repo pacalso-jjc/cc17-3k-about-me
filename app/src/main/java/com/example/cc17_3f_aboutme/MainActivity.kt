@@ -69,7 +69,8 @@ class MainActivity : AppCompatActivity() {
             {view -> val intent = Intent(this, AboutLuckyActivity::class.java)
                 startActivity(intent)
             })
-        val cyAcedera = AboutMe(R.drawable.acederacy,
+        val cyAcedera = AboutMe(
+            R.drawable.cyace,
             "Patricia Cyrine H. Acedera",
             "BSIT - NetSec"
         ) { view ->

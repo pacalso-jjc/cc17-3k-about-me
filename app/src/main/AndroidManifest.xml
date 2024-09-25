@@ -31,6 +31,9 @@
             android:name=".AboutLuckyActivity"
             android:exported="false" />
         <activity
+            android:name=".AboutRovicActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

@@ -9,7 +9,6 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.cc17_3f_aboutme.adapter.AboutMeAdapter
-import com.example.cc17_3f_aboutme.model.AboutAcederaActivity
 import com.example.cc17_3f_aboutme.model.AboutMe
 
 class MainActivity : AppCompatActivity() {
@@ -69,16 +68,15 @@ class MainActivity : AppCompatActivity() {
             {view -> val intent = Intent(this, AboutLuckyActivity::class.java)
                 startActivity(intent)
             })
-        val cyAcedera = AboutMe(
-            R.drawable.cyace,
-            "Patricia Cyrine H. Acedera",
-            "BSIT - NetSec"
-        ) { view ->
-            val intent = Intent(this, AboutAcederaActivity::class.java)
-            startActivity(intent)
-        }
 
-        val arrList = listOf(aboutMe1, aboutMe2, aboutMe48, rykielDelaCalzada,iversonFerasan, aboutJohnLucky, cyAcedera)
+        val aboutCyrine = AboutMe(R.drawable.cyace,
+            "Cyrine H. Acedera",
+            "It is what is it?",
+            {view -> val intent = Intent(this, AboutAcederaActivity::class.java)
+                startActivity(intent)
+            })
+
+        val arrList = listOf(aboutMe1, aboutMe2, aboutMe48, rykielDelaCalzada,iversonFerasan, aboutJohnLucky, aboutCyrine)
 
         rvAboutMe.adapter = AboutMeAdapter(arrList)
     }

@@ -72,7 +72,9 @@ class MainActivity : AppCompatActivity() {
         val aboutJedda = AboutMe(R.drawable.jedda_dp,
             "Jedda MAe Kidlongan",
             "Life is short...",
-            {/*TODO */})
+            {view -> val intent = Intent(this, AboutJeddaActivity::class.java)
+                startActivity(intent)
+            })
 
         val arrList = listOf(aboutMe1, aboutMe2, aboutMe48, rykielDelaCalzada,iversonFerasan, aboutJohnLucky, aboutJedda)
 

@@ -69,12 +69,21 @@ class MainActivity : AppCompatActivity() {
             {view -> val intent = Intent(this, AboutLuckyActivity::class.java)
                 startActivity(intent)
             })
+<<<<<<< HEAD
+        val cyAcedera = AboutMe(R.drawable.acedera_dp,
+            "Patricia Cyrine H. Acedera",
+            "BSIT - NetSec"
+        ) { view -> val intent = Intent(this, AboutAcederaActivity::class.java)
+            startActivity(intent)
+        }
+=======
         val aboutRovic = AboutMe(R.drawable.rovic_dp,
             "Rovic Roy",
             "BSIT - NETSEC",
             {view -> val intent = Intent(this, AboutRovicActivity::class.java)
                 startActivity(intent)
             })
+>>>>>>> master
 
         val philipB = AboutMe(R.drawable.baladad_philip,
             "Philip Oliver M. Baladad",

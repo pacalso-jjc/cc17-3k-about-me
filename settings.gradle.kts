@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "CC17-3F-AboutMe"
+rootProject.name = "CC17-3K-AboutMe"
 include(":app")

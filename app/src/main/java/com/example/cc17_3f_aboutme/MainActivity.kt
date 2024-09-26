@@ -102,7 +102,7 @@ class MainActivity : AppCompatActivity() {
 
 
       
-        val arrList = listOf(aboutMe1, aboutMe2, aboutMe48, rykielDelaCalzada,iversonFerasan, aboutJohnLucky, aboutRovic, philipB, christopherOrpilla)
+        val arrList = listOf(aboutMe1, aboutMe2, aboutMe48, rykielDelaCalzada,iversonFerasan, aboutJohnLucky, cyAcedera, aboutRovic, philipB, christopherOrpilla)
 
         rvAboutMe.adapter = AboutMeAdapter(arrList)
     }

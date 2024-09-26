@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:padding="16dp"
     android:background="#E6E6D7"
-    tools:context=".model.AboutAcederaActivity">
+    tools:context=".AboutAcederaActivity">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"

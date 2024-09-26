@@ -8,6 +8,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.cc17_3f_aboutme.R.drawable.pixelated_cj
 import com.example.cc17_3f_aboutme.adapter.AboutMeAdapter
 import com.example.cc17_3f_aboutme.model.AboutMe
 
@@ -69,14 +70,39 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             })
 
-        val aboutCyrine = AboutMe(R.drawable.cyace,
-            "Cyrine H. Acedera",
-            "It is what is it?",
-            {view -> val intent = Intent(this, AboutAcederaActivity::class.java)
+        val cyAcedera = AboutMe(R.drawable.acedera_dp,
+            "Patricia Cyrine H. Acedera",
+            "BSIT - NetSec"
+        ) { view -> val intent = Intent(this, AboutAcederaActivity::class.java)
+            startActivity(intent)
+        }
+
+        val aboutRovic = AboutMe(R.drawable.rovic_dp,
+            "Rovic Roy",
+            "BSIT - NETSEC",
+            {view -> val intent = Intent(this, AboutRovicActivity::class.java)
                 startActivity(intent)
             })
 
-        val arrList = listOf(aboutMe1, aboutMe2, aboutMe48, rykielDelaCalzada,iversonFerasan, aboutJohnLucky, aboutCyrine)
+        val philipB = AboutMe(R.drawable.baladad_philip,
+            "Philip Oliver M. Baladad",
+            "Mabait na Nilalang",
+            {view ->
+                val intent = Intent(this, AboutPhilipActivity::class.java)
+                startActivity(intent)
+            })
+
+        val christopherOrpilla = AboutMe(R.drawable.pixelated_cj,
+            "CJ Orpilla",
+            "BSIT - Web",
+            {view ->
+                val intent = Intent(this, AboutOrpillaActivity::class.java)
+                startActivity(intent)
+            })
+
+
+      
+        val arrList = listOf(aboutMe1, aboutMe2, aboutMe48, rykielDelaCalzada,iversonFerasan, aboutJohnLucky, cyAcedera, aboutRovic, philipB, christopherOrpilla)
 
         rvAboutMe.adapter = AboutMeAdapter(arrList)
     }

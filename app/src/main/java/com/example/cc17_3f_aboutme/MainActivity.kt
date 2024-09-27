@@ -40,6 +40,13 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(this, AboutJaneDoeActivity::class.java)
                 startActivity(intent)
             })
+        val aboutMe22 = AboutMe(R.drawable.arnawlto_dp,
+            "Arnold Matias",
+            "BSIT - NetSec",
+            {view ->
+                val intent = Intent(this, AboutJaneDoeActivity::class.java)
+                startActivity(intent)
+            })
 
         val aboutMe48 = AboutMe(R.mipmap.psy,
             "Chris Paolo Sab-it",

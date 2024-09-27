@@ -82,7 +82,7 @@ class MainActivity : AppCompatActivity() {
             {view -> val intent = Intent(this, AboutShaneActivity::class.java)
                 startActivity(intent)})
 
- 61-as-a-user-i-should-be-able-to-see-fangonilo-renzo-about-page-when-i-click-the-show-more-button-in-the-launcher
+
         val renzo = AboutMe(R.drawable.ic_launcher_foreground,
             "Renzo Fangonilo",
             "yEssS?",
@@ -90,11 +90,14 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(this, AboutRenzoActivity::class.java)
                 startActivity(intent)
             })
+        val aboutJhandel = AboutMe(R.drawable.jhandel_dp,
+            "Jhandel K. Semion",
+            "Coke tsaka JD",
+            {/*view -> val intent = Intent(this, AboutJhandelActivity::class.java)
+                startActivity(intent)
+            */})
 
-        val arrList = listOf(aboutMe1, aboutMe2, aboutMe48, rykielDelaCalzada,iversonFerasan, aboutJohnLucky, aboutJedda, aboutShane, renzo)
-
-        val arrList = listOf(aboutMe1, aboutMe2, aboutMe48, rykielDelaCalzada,iversonFerasan, aboutJohnLucky, aboutJedda, aboutShane)
-        master
+        val arrList = listOf(aboutMe1, aboutMe2, aboutMe48, rykielDelaCalzada,iversonFerasan, aboutJohnLucky, aboutJedda, aboutShane, renzo, aboutJhandel)
 
         rvAboutMe.adapter = AboutMeAdapter(arrList)
     }

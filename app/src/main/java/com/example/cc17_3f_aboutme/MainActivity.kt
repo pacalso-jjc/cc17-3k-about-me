@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
 
         val aboutBascong = AboutMe(R.drawable.profilepic,
             "Evasco",
-            "CC17-3k",
+            "CC17-3K",
             {view ->
                 val intent = Intent(this, AboutEvascoActivity::class.java)
                 startActivity(intent)

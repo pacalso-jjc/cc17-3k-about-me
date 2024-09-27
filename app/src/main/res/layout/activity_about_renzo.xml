@@ -27,17 +27,18 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Student"
+            android:text="BSIT-NETSEC"
             android:textSize="30sp"
             android:layout_gravity="center"
             />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ako to si Renzo na Mahal na Mahal ka. Hindi kita ipagpapalit kita pag may nakita akong bago.ILOVEYOU FROM THE BOTTOM OF MY HEART UWU!"
-            android:textSize="30sp"
             android:layout_gravity="center"
-            />
+            android:text="Ako to si Renzo na Mahal na Mahal ka. Hindi kita ipagpapalit kita pag may nakita akong bago. KAPAG NABASA MO ITONG MENSAHENG ITO,IPASA MO SA 20 KATAO,DAHIL BUKAS AY MORNING. "
+            android:textAlignment="center"
+            android:textSize="30sp" />
 
         <ImageView
             android:layout_width="250dp"

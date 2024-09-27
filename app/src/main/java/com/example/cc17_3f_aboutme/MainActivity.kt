@@ -84,7 +84,7 @@ class MainActivity : AppCompatActivity() {
 
         val renzo = AboutMe(R.drawable.ic_launcher_foreground,
             "Renzo Fangonilo",
-            "yEss?",
+            "yEssS?",
             { view ->
                 val intent = Intent(this, AboutRenzoActivity::class.java)
                 startActivity(intent)

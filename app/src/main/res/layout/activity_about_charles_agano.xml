@@ -49,7 +49,7 @@
             android:gravity="center"
             android:text="Hi, I am Charles Agano and I currently stay in Baguio and taking up
 BSIT in University of the Cordilleras.
-I am pretty lazy but responsible enough to do my task. I like to eat Jollibee chickenjoy and spaghetti while playing games,watching movies/series or reading a book.. "
+I am pretty lazy but responsible enough to do my task. I like to eat Jollibee chickenjoy and spaghetti while playing games,watching movies/series or reading books.. "
             android:textSize="25dp" />
         </LinearLayout>
     </ScrollView>

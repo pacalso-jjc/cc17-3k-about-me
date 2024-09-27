@@ -92,9 +92,9 @@ class MainActivity : AppCompatActivity() {
         val aboutJhandel = AboutMe(R.drawable.jhandel_dp,
             "Jhandel K. Semion",
             "Coke tsaka JD",
-            {/*view -> val intent = Intent(this, AboutJhandelActivity::class.java)
+            {view -> val intent = Intent(this, AboutJhandelActivity::class.java)
                 startActivity(intent)
-            */})
+            })
 
         val arrList = listOf(aboutMe1, aboutMe2, aboutMe48, rykielDelaCalzada,iversonFerasan, aboutJohnLucky, aboutJedda, aboutShane, renzo, aboutJhandel)
 

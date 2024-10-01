@@ -48,6 +48,13 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             })
 
+        val deonTan = AboutMe(R.mipmap.psy,
+            "Tan, Deon R.",
+            "BSCS Student",
+            { view -> val intent = Intent(this, AboutTanActivity::class.java)
+                startActivity(intent)
+            })
+
         val rykielDelaCalzada = AboutMe(R.drawable.rykiel_delacalzada_dp,
             "Rykiel Louizze Dela Calzada",
             "BSIT - NetSec",
@@ -104,8 +111,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
-        val arrList = listOf(aboutMe1, aboutMe2, aboutMe48, rykielDelaCalzada,iversonFerasan, aboutJohnLucky, aboutJedda, aboutShane, renzo, aboutJhandel, aboutLeonor)
-
+        val arrList = listOf(aboutMe1, aboutMe2, aboutMe48, deonTan, rykielDelaCalzada,iversonFerasan, aboutJohnLucky, aboutJedda, aboutShane, renzo, aboutJhandel, aboutLeonor)
         rvAboutMe.adapter = AboutMeAdapter(arrList)
     }
 }

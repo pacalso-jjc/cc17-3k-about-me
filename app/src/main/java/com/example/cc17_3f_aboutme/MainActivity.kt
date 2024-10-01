@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             })
 
-        val deonTan = AboutMe(R.mipmap.psy,
+        val deonTan = AboutMe(R.drawable.tanlauncher,
             "Tan, Deon R.",
             "BSCS Student",
             { view -> val intent = Intent(this, AboutTanActivity::class.java)

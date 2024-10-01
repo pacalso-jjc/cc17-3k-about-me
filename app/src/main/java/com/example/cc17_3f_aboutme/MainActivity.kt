@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             })
 
-        val Tadena = AboutMe(R.drawable.Tadena,
+        val Tadena = AboutMe(R.drawable.tadena,
             "Princess Brylle N. Tadena",
             "Student",
             { view -> val intent = Intent(this, AboutTadenaActivity::class.java)

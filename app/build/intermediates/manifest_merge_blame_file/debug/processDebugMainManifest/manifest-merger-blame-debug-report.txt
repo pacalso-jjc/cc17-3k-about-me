@@ -1,0 +1,240 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.cc17_3f_aboutme"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <permission
+11-->[androidx.core:core:1.13.1] C:\Users\jhony\.gradle\caches\transforms-4\b03ace3aaef63abcceab4ae4a6be6736\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.cc17_3f_aboutme.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.13.1] C:\Users\jhony\.gradle\caches\transforms-4\b03ace3aaef63abcceab4ae4a6be6736\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.13.1] C:\Users\jhony\.gradle\caches\transforms-4\b03ace3aaef63abcceab4ae4a6be6736\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.cc17_3f_aboutme.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.13.1] C:\Users\jhony\.gradle\caches\transforms-4\b03ace3aaef63abcceab4ae4a6be6736\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.13.1] C:\Users\jhony\.gradle\caches\transforms-4\b03ace3aaef63abcceab4ae4a6be6736\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:5:5-79:19
+18        android:allowBackup="true"
+18-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.13.1] C:\Users\jhony\.gradle\caches\transforms-4\b03ace3aaef63abcceab4ae4a6be6736\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:8:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:9:9-43
+25        android:label="@string/app_name"
+25-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:10:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:11:9-54
+27        android:supportsRtl="true"
+27-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:12:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.CC173FAboutMe" >
+29-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:13:9-51
+30        <activity
+30-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:15:9-17:40
+31            android:name="com.example.cc17_3f_aboutme.AboutTadenaActivity"
+31-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:16:13-48
+32            android:exported="false" />
+32-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:17:13-37
+33        <activity
+33-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:18:9-21:58
+34            android:name="com.example.cc17_3f_aboutme.AboutTanActivity"
+34-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:19:13-45
+35            android:exported="false"
+35-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:20:13-37
+36            android:theme="@style/Theme.CC173FAboutMe" />
+36-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:21:13-55
+37        <activity
+37-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:22:9-24:40
+38            android:name="com.example.cc17_3f_aboutme.AboutLeonorActivity"
+38-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:23:13-48
+39            android:exported="false" />
+39-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:24:13-37
+40        <activity
+40-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:25:9-27:40
+41            android:name="com.example.cc17_3f_aboutme.AboutCharlesAganoActivity"
+41-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:26:13-54
+42            android:exported="false" />
+42-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:27:13-37
+43        <activity
+43-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:28:9-30:40
+44            android:name="com.example.cc17_3f_aboutme.AboutShaneActivity"
+44-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:29:13-47
+45            android:exported="false" />
+45-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:30:13-37
+46        <activity
+46-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:31:9-33:40
+47            android:name="com.example.cc17_3f_aboutme.AboutJeddaActivity"
+47-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:32:13-47
+48            android:exported="false" />
+48-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:33:13-37
+49        <activity
+49-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:34:9-36:40
+50            android:name="com.example.cc17_3f_aboutme.AboutOrpillaActivity"
+50-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:35:13-49
+51            android:exported="false" />
+51-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:36:13-37
+52        <activity
+52-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:37:9-39:40
+53            android:name="com.example.cc17_3f_aboutme.AboutPhilipActivity"
+53-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:38:13-48
+54            android:exported="false" />
+54-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:39:13-37
+55        <activity
+55-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:40:9-42:40
+56            android:name="com.example.cc17_3f_aboutme.AboutAcederaActivity"
+56-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:41:13-49
+57            android:exported="false" />
+57-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:42:13-37
+58        <activity
+58-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:43:9-45:40
+59            android:name="com.example.cc17_3f_aboutme.AboutIversonActivity"
+59-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:44:13-49
+60            android:exported="false" />
+60-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:45:13-37
+61        <activity
+61-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:46:9-48:40
+62            android:name="com.example.cc17_3f_aboutme.AboutJaneDoeActivity"
+62-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:47:13-49
+63            android:exported="false" />
+63-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:48:13-37
+64        <activity
+64-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:49:9-51:40
+65            android:name="com.example.cc17_3f_aboutme.AboutJerryActivity"
+65-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:50:13-47
+66            android:exported="false" />
+66-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:51:13-37
+67        <activity
+67-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:52:9-54:40
+68            android:name="com.example.cc17_3f_aboutme.AboutPaoActivity"
+68-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:53:13-45
+69            android:exported="false" />
+69-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:54:13-37
+70        <activity
+70-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:55:9-57:40
+71            android:name="com.example.cc17_3f_aboutme.AboutRykielActivity"
+71-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:56:13-48
+72            android:exported="false" />
+72-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:57:13-37
+73        <activity
+73-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:58:9-60:40
+74            android:name="com.example.cc17_3f_aboutme.AboutLuckyActivity"
+74-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:59:13-47
+75            android:exported="false" />
+75-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:60:13-37
+76        <activity
+76-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:61:9-63:40
+77            android:name="com.example.cc17_3f_aboutme.AboutJhandelActivity"
+77-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:62:13-49
+78            android:exported="false" />
+78-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:63:13-37
+79        <activity
+79-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:64:9-66:40
+80            android:name="com.example.cc17_3f_aboutme.AboutRovicActivity"
+80-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:65:13-47
+81            android:exported="false" />
+81-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:66:13-37
+82        <activity
+82-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:67:9-69:40
+83            android:name="com.example.cc17_3f_aboutme.AboutBangananActivity"
+83-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:68:13-50
+84            android:exported="false" />
+84-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:69:13-37
+85        <activity
+85-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:70:9-78:20
+86            android:name="com.example.cc17_3f_aboutme.MainActivity"
+86-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:71:13-41
+87            android:exported="true" >
+87-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:72:13-36
+88            <intent-filter>
+88-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:73:13-77:29
+89                <action android:name="android.intent.action.MAIN" />
+89-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:74:17-69
+89-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:74:25-66
+90
+91                <category android:name="android.intent.category.LAUNCHER" />
+91-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:76:17-77
+91-->C:\Users\jhony\AndroidStudioProjects\cc17-3k-about-me\app\src\main\AndroidManifest.xml:76:27-74
+92            </intent-filter>
+93        </activity>
+94
+95        <provider
+95-->[androidx.emoji2:emoji2:1.3.0] C:\Users\jhony\.gradle\caches\transforms-4\f63872245fefaa3233b6f31925ce163b\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+96            android:name="androidx.startup.InitializationProvider"
+96-->[androidx.emoji2:emoji2:1.3.0] C:\Users\jhony\.gradle\caches\transforms-4\f63872245fefaa3233b6f31925ce163b\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+97            android:authorities="com.example.cc17_3f_aboutme.androidx-startup"
+97-->[androidx.emoji2:emoji2:1.3.0] C:\Users\jhony\.gradle\caches\transforms-4\f63872245fefaa3233b6f31925ce163b\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+98            android:exported="false" >
+98-->[androidx.emoji2:emoji2:1.3.0] C:\Users\jhony\.gradle\caches\transforms-4\f63872245fefaa3233b6f31925ce163b\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+99            <meta-data
+99-->[androidx.emoji2:emoji2:1.3.0] C:\Users\jhony\.gradle\caches\transforms-4\f63872245fefaa3233b6f31925ce163b\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+100                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+100-->[androidx.emoji2:emoji2:1.3.0] C:\Users\jhony\.gradle\caches\transforms-4\f63872245fefaa3233b6f31925ce163b\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+101                android:value="androidx.startup" />
+101-->[androidx.emoji2:emoji2:1.3.0] C:\Users\jhony\.gradle\caches\transforms-4\f63872245fefaa3233b6f31925ce163b\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+102            <meta-data
+102-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\jhony\.gradle\caches\transforms-4\06ddf227f3f0215deb52bbf6079a33ba\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+103                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+103-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\jhony\.gradle\caches\transforms-4\06ddf227f3f0215deb52bbf6079a33ba\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+104                android:value="androidx.startup" />
+104-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\jhony\.gradle\caches\transforms-4\06ddf227f3f0215deb52bbf6079a33ba\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+105            <meta-data
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jhony\.gradle\caches\transforms-4\a9877611df7f1a0d9245b98bf66bb622\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+106                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jhony\.gradle\caches\transforms-4\a9877611df7f1a0d9245b98bf66bb622\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+107                android:value="androidx.startup" />
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jhony\.gradle\caches\transforms-4\a9877611df7f1a0d9245b98bf66bb622\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+108        </provider>
+109
+110        <receiver
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jhony\.gradle\caches\transforms-4\a9877611df7f1a0d9245b98bf66bb622\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+111            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jhony\.gradle\caches\transforms-4\a9877611df7f1a0d9245b98bf66bb622\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+112            android:directBootAware="false"
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jhony\.gradle\caches\transforms-4\a9877611df7f1a0d9245b98bf66bb622\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+113            android:enabled="true"
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jhony\.gradle\caches\transforms-4\a9877611df7f1a0d9245b98bf66bb622\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+114            android:exported="true"
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jhony\.gradle\caches\transforms-4\a9877611df7f1a0d9245b98bf66bb622\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+115            android:permission="android.permission.DUMP" >
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jhony\.gradle\caches\transforms-4\a9877611df7f1a0d9245b98bf66bb622\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+116            <intent-filter>
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jhony\.gradle\caches\transforms-4\a9877611df7f1a0d9245b98bf66bb622\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+117                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jhony\.gradle\caches\transforms-4\a9877611df7f1a0d9245b98bf66bb622\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jhony\.gradle\caches\transforms-4\a9877611df7f1a0d9245b98bf66bb622\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+118            </intent-filter>
+119            <intent-filter>
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jhony\.gradle\caches\transforms-4\a9877611df7f1a0d9245b98bf66bb622\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+120                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+120-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jhony\.gradle\caches\transforms-4\a9877611df7f1a0d9245b98bf66bb622\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+120-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jhony\.gradle\caches\transforms-4\a9877611df7f1a0d9245b98bf66bb622\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+121            </intent-filter>
+122            <intent-filter>
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jhony\.gradle\caches\transforms-4\a9877611df7f1a0d9245b98bf66bb622\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+123                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jhony\.gradle\caches\transforms-4\a9877611df7f1a0d9245b98bf66bb622\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jhony\.gradle\caches\transforms-4\a9877611df7f1a0d9245b98bf66bb622\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+124            </intent-filter>
+125            <intent-filter>
+125-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jhony\.gradle\caches\transforms-4\a9877611df7f1a0d9245b98bf66bb622\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+126                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jhony\.gradle\caches\transforms-4\a9877611df7f1a0d9245b98bf66bb622\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\jhony\.gradle\caches\transforms-4\a9877611df7f1a0d9245b98bf66bb622\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+127            </intent-filter>
+128        </receiver>
+129    </application>
+130
+131</manifest>

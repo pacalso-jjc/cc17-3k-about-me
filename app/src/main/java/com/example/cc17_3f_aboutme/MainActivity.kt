@@ -125,7 +125,9 @@ class MainActivity : AppCompatActivity() {
         val aboutFang = AboutMe(R.drawable.small_image,
             "Fang Zhao",
             "A passionate young people",
-            {/**/ })
+            {view ->
+                val intent = Intent(this, AboutFangZhaoActivity::class.java)
+                startActivity(intent)})
 
 
 

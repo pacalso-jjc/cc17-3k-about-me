@@ -128,10 +128,69 @@ class MainActivity : AppCompatActivity() {
             {view ->
                 val intent = Intent(this, AboutFangZhaoActivity::class.java)
                 startActivity(intent)})
+        val cyAcedera = AboutMe(R.drawable.acedera_dp,
+            "Patricia Cyrine H. Acedera",
+            "BSIT - NetSec"
+        ) { view -> val intent = Intent(this, AboutAcederaActivity::class.java)
+            startActivity(intent)
+        }
 
+        val aboutRovic = AboutMe(R.drawable.rovic_dp,
+            "Rovic Roy",
+            "BSIT - NETSEC",
+            {view -> val intent = Intent(this, AboutRovicActivity::class.java)
+                startActivity(intent)
+            })
 
+        val philipB = AboutMe(R.drawable.baladad_philip,
+            "Philip Oliver M. Baladad",
+            "Mabait na Nilalang",
+            {view ->
+                val intent = Intent(this, AboutPhilipActivity::class.java)
+                startActivity(intent)
+            })
 
-        val arrList = listOf(aboutMe1, aboutMe2, aboutMe48, deonTan, Tadena, rykielDelaCalzada,iversonFerasan, aboutJohnLucky, aboutJedda, aboutShane, renzo, aboutJhandel, aboutLeonor, aboutBanganan,aboutFang)
+        val christopherOrpilla = AboutMe(R.drawable.pixelated_cj,
+            "CJ Orpilla",
+            "BSIT - Web",
+            {view ->
+                val intent = Intent(this, AboutOrpillaActivity::class.java)
+                startActivity(intent)
+            })
+        val charlesAgano = AboutMe(R.drawable.charles_a,"Charles Agano",
+            "Lazy",
+            {view -> val intent = Intent(this, AboutCharlesAganoActivity::class.java)
+                startActivity(intent)})
+        val aboutMe22 = AboutMe(R.drawable.arnawlto_dp,
+            "Arnold Matias",
+            "BSIT - NetSec",
+            {view ->
+                val intent = Intent(this, AboutArnoldActivity::class.java)
+                startActivity(intent)
+            })
+
+        val arrList = listOf(aboutMe1, aboutMe2,
+            aboutMe48,
+            rykielDelaCalzada,
+            iversonFerasan,
+            aboutJohnLucky,
+            aboutJedda,
+            aboutShane,
+            renzo,
+            aboutJhandel,
+            aboutLeonor,
+            christopherOrpilla,
+            philipB,
+            aboutRovic,
+            cyAcedera,
+            charlesAgano,
+            aboutMe22,
+            aboutBanganan,
+            aboutFang,
+            deonTan,
+            Tadena
+        )
+
         rvAboutMe.adapter = AboutMeAdapter(arrList)
     }
 }

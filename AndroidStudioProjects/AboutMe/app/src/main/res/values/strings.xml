@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="profile_description">Profile Picture</string>
+    <string name="occupation">Athlete, IT Student</string>
+    <string name="description">A second year IT student who enjoys working out in the gym.</string>
+    <string name="show_more">Show More</string>
+</resources>
